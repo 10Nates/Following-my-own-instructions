@@ -1,0 +1,15 @@
+{
+  "name": "Instructions Follower Bot",
+  "version": "1.0.0",
+  "description": "Yes, no.",
+  "main": "index.js",
+  "scripts": {
+    "test": " "
+  },
+  "author": "[Your Name]",
+  "license": "ISC",
+  "dependencies": {
+  "discord.js": "11.3.2"
+}
+
+}
