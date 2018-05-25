@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-
 function getlength(number) {
     return number.toString().length;
 }
@@ -30,9 +29,9 @@ module.exports = {
                 } else {
                     bot.channels.get(ChanID).send(message.content);
                     bot.channels.get('449044829578723341').send(`recieved: ${message.author.username} - ${message.content}`);
-                    bot.channels.get('449044829578723341').send(`Sent: ${msg} to <#${ChanID}>`);
+                    bot.channels.get('449044829578723341').send(`Sent: ${message.content} to <#${ChanID}>`);
                     console.log(message.author.username + ' - ' + message.content);
-                    console.log(`Sent: ${msg} to <#${ChanID}>`);
+                    console.log(`Sent: ${message.content} to <#${ChanID}>`);
                 }
             }
         }
